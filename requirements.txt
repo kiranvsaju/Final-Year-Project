@@ -1,0 +1,10 @@
+streamlit
+chromadb
+langchain
+langchain-community
+sentence-transformers
+pypdf
+python-dotenv
+mistralai
+requests
+huggingface_hub # Often a dependency for sentence-transformers or langchain embeddings
