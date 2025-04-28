@@ -8,3 +8,4 @@ python-dotenv
 mistralai
 requests
 huggingface_hub # Often a dependency for sentence-transformers or langchain embeddings
+pysqlite3-binary
