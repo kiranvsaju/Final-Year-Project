@@ -5,6 +5,12 @@ import requests
 import base64
 from dotenv import load_dotenv
 import logging
+try:
+    import pysqlite3
+    import sys
+    sys.modules['sqlite3'] = pysqlite3
+except ImportError:
+    pass
 from chromadb import PersistentClient
 from langchain.embeddings import HuggingFaceEmbeddings
 import uuid
